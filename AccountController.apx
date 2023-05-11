@@ -5,5 +5,5 @@ public class AccountController
    List<Account> aLst=[SELECT Id,Name,AnnualRevenue,Rating from Account where AnnualRevenue<10000]; // changes done here
    system.debug('Account List: '+aLst); // changes done here
    return aLst;
- }
+ }// a New Line is added for to check and apply the pull command in Vscode
 }// changes done
