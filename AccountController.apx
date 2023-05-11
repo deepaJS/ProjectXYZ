@@ -6,5 +6,4 @@ public class AccountController
    system.debug('List of Accounts with annualrevenue In Org: '+accLst); // changes done here
    return accLst;
  }
-}
-a
+}// changes done
