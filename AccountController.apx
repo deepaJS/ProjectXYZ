@@ -2,9 +2,8 @@ public class AccountController
 {
  public List<Account> getAllAccounts()
  {
-   List<Account> accLst=new List<Account>();
-   accLst=[SELECT Id,Name from Account];
-   system.debug('List of Accounts: '+accLst);
+   List<Account> accLst=[SELECT Id,Name from Account]; // changes done here
+   system.debug('List of Accounts In Org: '+accLst); // changes done here
    return accLst;
  }
 }
