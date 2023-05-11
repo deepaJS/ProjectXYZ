@@ -2,8 +2,9 @@ public class AccountController
 {
  public List<Account> getAllAccounts()
  {
-   List<Account> accLst=[SELECT Id,Name from Account]; // changes done here
+   List<Account> accLst=[SELECT Id,Name,AnnualRevenue from Account where AnnualRevenue<10000]; // changes done here
    system.debug('List of Accounts In Org: '+accLst); // changes done here
    return accLst;
  }
 }
+a
